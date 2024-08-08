@@ -1,6 +1,6 @@
 ### Olá! Este é meu primeiro projeto 👋
 
-<h5>O projeto Gustavo.dev é uma calculadora web projetada para replicar o estilo e a funcionalidade das calculadoras do iOS (iPhone). Este projeto utiliza HTML5, CSS e JavaScript para criar uma interface limpa e moderna, semelhante ao design encontrado em dispositivos Apple.
+<h5>O projeto de uma calculadora simples (IOS - WEB) é uma calculadora web projetada para replicar o estilo e a funcionalidade das calculadoras do iOS (iPhone). Este projeto utiliza HTML5, CSS e JavaScript para criar uma interface limpa e moderna, semelhante ao design encontrado em dispositivos Apple.
 
 O que foi feito:
 
