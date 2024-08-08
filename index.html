@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo.dev - Calculadora iOS</title>
+    <link rel="stylesheet" href="documents/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="buttons">
+                <button class="button" onclick="clearDisplay()">AC</button>
+                <button class="button" onclick="inputValue('+/-')">+/-</button>
+                <button class="button" onclick="inputValue('%')">%</button>
+                <button class="button operator" onclick="inputValue('/')">÷</button>
+                <button class="button" onclick="inputValue('7')">7</button>
+                <button class="button" onclick="inputValue('8')">8</button>
+                <button class="button" onclick="inputValue('9')">9</button>
+                <button class="button operator" onclick="inputValue('*')">×</button>
+                <button class="button" onclick="inputValue('4')">4</button>
+                <button class="button" onclick="inputValue('5')">5</button>
+                <button class="button" onclick="inputValue('6')">6</button>
+                <button class="button operator" onclick="inputValue('-')">-</button>
+                <button class="button" onclick="inputValue('1')">1</button>
+                <button class="button" onclick="inputValue('2')">2</button>
+                <button class="button" onclick="inputValue('3')">3</button>
+                <button class="button operator" onclick="inputValue('+')">+</button>
+                <button class="button zero" onclick="inputValue('0')">0</button>
+                <button class="button" onclick="inputValue('.')">.</button>
+                <button class="button operator" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Desenvolvido por: Gustavo de Paula 💜</p>
+            <img src="documents/logo.png" alt="Logo" class="logo">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
